@@ -1,0 +1,69 @@
+# How to Use
+
+
+
+1.  #### Installation <a href="#id-1-installation" id="id-1-installation"></a>
+
+    Add this to your package's `pubspec.yaml` file:
+
+```dart
+
+dependencies:
+  menstrual_cycle_widget: <latest_version>
+
+```
+
+2.  #### Install it <a href="#id-2-install-it" id="id-2-install-it"></a>
+
+    You can install packages from the command line:
+
+```dart
+$ flutter packages get
+```
+
+3. #### Configuration <a href="#id-3-configuration" id="id-3-configuration"></a>
+   1.  **Initialization**
+
+       `MenstrualCycleWidget.init(secretKey: "<Your Secrey Key>", ivKey: "<Your ivKey>");`must be called before using the package:
+
+
+
+       **For Example:**
+
+       ```dart
+       void main() {
+         WidgetsFlutterBinding.ensureInitialized();
+         // Make sure to add the required packages to pubspec.yaml:
+         // * https://pub.dev/packages/menstrual_cycle_widget
+         MenstrualCycleWidget.init(secretKey: "11a1215l0119a140409p0919", ivKey: "23a1dfr5lyhd9a1404845001");
+         runApp(const MyApp());
+       }
+       ```
+
+
+   2.  **Create a instance of `MenstrualCycleWidget`**
+
+       This instance is used to update your configuration as well to access other functions of this package.
+
+
+
+       ```dart
+         final instance = MenstrualCycleWidget.instance!;
+       ```
+
+
+   3.  **Update configuration**
+
+       Use `updateConfiguration` method to update configuration.
+
+
+
+       **For Example**
+
+       ```dart
+       instance.updateConfiguration(cycleLength: 28, periodDuration: 5, userId: "1");
+       ```
+
+
+
+<table><thead><tr><th width="192">Parameters</th><th width="107">Datatype</th><th width="312">Description</th><th align="center">Default Value</th></tr></thead><tbody><tr><td><strong><code>cycleLength</code></strong></td><td>int</td><td><strong>Required</strong>. Specifies the total number of cycle days in the menstrual cycle</td><td align="center">-</td></tr><tr><td><strong><code>periodDuration</code></strong></td><td>int</td><td><strong>Required</strong>. Specifies the total number of period duration in the menstrual cycle</td><td align="center">-</td></tr><tr><td><code>userId</code></td><td>String</td><td>Specifies the user id to store data.</td><td align="center">0(Zero)</td></tr><tr><td><code>lastPeriodDate</code></td><td>DateTime</td><td>Specifies the last period date.</td><td align="center">Null</td></tr></tbody></table>

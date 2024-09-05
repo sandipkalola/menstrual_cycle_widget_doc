@@ -1,8 +1,12 @@
+---
+description: Documentation of flutter package  "Menstrual Cycle Widget".
+---
+
 # Overview
 
-**Menstrual Cycle Widget** is a comprehensive and customizable widget desißgned to help users to show their menstrual cycles seamlessly. It is built with Flutter, allowing easy integration into any Flutter application. This widget provides an intuitive interface, essential features, and insightful visualizations to support users in understanding their menstrual days.
+[**Menstrual Cycle Widget**](https://pub.dev/packages/menstrual\_cycle\_widget) is a comprehensive and customizable widget desißgned to help users to show their menstrual cycles seamlessly. It is built with Flutter, allowing easy integration into any Flutter application. This widget provides an intuitive interface, essential features, and insightful visualizations to support users in understanding their menstrual days.
 
-
+Flutter package link:  [ **Menstrual Cycle Widget**](https://pub.dev/packages/menstrual\_cycle\_widget)
 
 {% hint style="info" %}
 **Note**

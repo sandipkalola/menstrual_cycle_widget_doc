@@ -22,4 +22,4 @@
 * [Request Feature](request-feature.md)
 * [Github Repo](github-repo.md)
 * [Donate](donate.md)
-* [Examples](examples.md)
+* [MIT License](mit-license.md)

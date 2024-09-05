@@ -4,11 +4,14 @@
    * Record the start and end dates of menstrual periods.
    * Track cycle length and predict future periods and ovulation days.
    * Log symptoms other notes.&#x20;
-2. **Calendar View**
+2. **Custom Widgets**
+   * Menstrual cycle phase view.
+   * Log daily symptoms view.&#x20;
+3. **Calendar View**
    * Monthly view with highlighted period days.
    * Display predicted ovulation and fertile windows.
    * Option to add periods logs
-3. **Graph View**
+4. **Graph View**
    * Body temperature graph
    * Cycle trends graph
    * Period cycle graph
@@ -17,9 +20,13 @@
    * Sleep graph
    * Weight graph
    * Meditation graph
-4. **Customization**
+5. **Customization**&#x20;
    * Theme color options to match the app’s style.
-   * Multiple customization options based on your requirements
+   * Multiple customization options based on your requirements.
    * Options to configure cycle length, period duration, user id and other preferences.
-5. **Privacy & Security**
+6. **Other features**
+   * Fetch graph data via paggination.
+   * Option to download image or PDF of your current graph data.
+   * Custom functions to get data from **Menstrual cycle widgets** for your own purpose.
+7. **Privacy & Security**
    * Secure data storage with local encryption.

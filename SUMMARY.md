@@ -18,6 +18,7 @@
   * [Weight graph](graphs/weight-graph.md)
   * [Meditation graph](graphs/meditation-graph.md)
 * [Custom Functions](custom-functions.md)
+* [FAQ](faq.md)
 * [Report Bugs](report-bugs.md)
 * [Request Feature](request-feature.md)
 * [Github Repo](github-repo.md)

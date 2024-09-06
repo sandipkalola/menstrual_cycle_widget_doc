@@ -4,3 +4,32 @@
 
 A **Cycle Trends Graph** is a valuable tool for visualizing overall menstrual cycle patterns over time. It helps users track and understand changes or irregularities in your cycles by comparing various cycle parameters across multiple months. This graph is useful for identifying your cycle trends such as changes in cycle regularity.
 
+```dart
+import 'package:menstrual_cycle_widget/menstrual_cycle_widget.dart';
+
+class MenstrualCycleGraphExample extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Cycle trends graph'),
+      ),
+      body: MenstrualCycleTrendsGraph(
+        isShowMoreOptions: true,
+        onPdfDownloadCallback: (pdfPath) async {
+          // This function will be called when the user downloads an pdf
+          // pdfPath contains the path to the downloaded pdf
+        },
+        onImageDownloadCallback: (imagePath) async {
+          // This function will be called when the user downloads an image
+          // imagePath contains the path to the downloaded image
+        },
+      ),
+    );
+  }
+}
+```
+
+## Parameter
+
+<table><thead><tr><th width="198">Parameters</th><th width="129">Datatype</th><th width="269">Description</th><th>Default Value</th></tr></thead><tbody><tr><td><code>loadingText</code></td><td>String</td><td>Specify the loading text while fetch data from databse.</td><td>Loading...</td></tr><tr><td><code>isShowMoreOptions</code></td><td>bool</td><td>Specify as true to show download image and pdf options into right-top of graph.</td><td>false</td></tr><tr><td><code>onImageDownloadCallback</code></td><td>Function</td><td>Callback this function if user download image. It's return a path of the image.</td><td>-</td></tr><tr><td><code>onPdfDownloadCallback</code></td><td>Function</td><td>Callback this function if user download pdf. It's return a path of the image.</td><td>-</td></tr><tr><td><code>xAxisTitle</code></td><td>String</td><td>Specify the title of xAxis</td><td>Cycle start date</td></tr><tr><td><code>xAxisTitleTextStyle</code></td><td>TextStyle</td><td>Specify the text style of xAxis</td><td>TextStyle(color: Colors.black, fontSize: 10)</td></tr><tr><td><code>isShowXAxisTitle</code></td><td>bool</td><td>Speficy false if want to hide xAxis title </td><td>true</td></tr><tr><td><code>yAxisTitle</code></td><td>String</td><td>Specify the title of yAxis</td><td>Cycle lenght days</td></tr><tr><td><code>yAxisTitleTextStyle</code></td><td>TextStyle</td><td>Specify the text style of yAxis</td><td>TextStyle(color: Colors.black, fontSize: 10)</td></tr><tr><td><code>isShowYAxisTitle</code></td><td>bool</td><td>Speficy false if want to hide yAxis title </td><td>true</td></tr><tr><td><code>isShowSeriesColor</code></td><td>bool</td><td>Speficy false if want to hide series color</td><td>true</td></tr><tr><td><code>isShowHeader</code></td><td>bool</td><td>Speficy false if want to hide header of graph</td><td>true</td></tr><tr><td><code>isShowNormalRangeHint</code></td><td>bool</td><td>Speficy false if want to hide normal range hint from graph</td><td>true</td></tr><tr><td><code>normalRangeHintTitle</code></td><td>String</td><td>Specify the title of normal range hint text</td><td>Normal days</td></tr><tr><td><code>normalRangeHintTextStyle</code></td><td>TextStyle</td><td>Specify the text style of normal range hint text</td><td>TextStyle(color: Colors.black, fontSize: 10)</td></tr><tr><td><code>headerTitle</code></td><td>String</td><td>Specify the title of header text</td><td>Cycle trends</td></tr><tr><td><code>headerTitleTextStyle</code></td><td>TextStyle</td><td>Specify the text style of header title text</td><td>TextStyle(color: Colors.black, fontSize: 10)</td></tr><tr><td><code>themeColor</code></td><td>Color</td><td>Specify the theme color of graph</td><td>Colors.black</td></tr></tbody></table>

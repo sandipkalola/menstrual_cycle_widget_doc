@@ -1,5 +1,7 @@
 # Menstrual cycle phase view
 
+<div><figure><img src="../.gitbook/assets/circle-type.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/arcs-type.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/basic_type.jpg" alt=""><figcaption></figcaption></figure></div>
+
 ```dart
 import 'package:menstrual_cycle_widget/menstrual_cycle_widget.dart';
 

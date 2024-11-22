@@ -1,7 +1,7 @@
 # Github Repo
 
-Menstrual cycle widget is open source project. Anyone can change it and use.&#x20;
+Menstrual Cycle Widget is an open-source project, allowing anyone to modify and use it as needed
 
-[Here](https://github.com/sandipkalola/menstrual\_cycle\_widget) is full source code of [MenstrualCycleWidget](https://pub.dev/packages/menstrual\_cycle\_widget)
+You can access the [full source](https://github.com/sandipkalola/menstrual\_cycle\_widget) code of [MenstrualCycleWidget](https://pub.dev/packages/menstrual\_cycle\_widget)
 
-[Here](https://github.com/sandipkalola/menstrual\_cycle\_widget\_example) is all example of [MenstrualCycleWidget](https://pub.dev/packages/menstrual\_cycle\_widget)
+You can access full exmaple from [Her](https://github.com/sandipkalola/menstrual\_cycle\_widget\_example)[e](https://github.com/sandipkalola/menstrual\_cycle\_widget\_example).

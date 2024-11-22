@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="https://raw.githubusercontent.com/sandipkalola/menstrual_cycle_widget_example/main/assets/period_graph.jpeg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/period-cycle-graph.jpeg" alt="" width="563"><figcaption></figcaption></figure>
 
 ```dart
 import 'package:menstrual_cycle_widget/menstrual_cycle_widget.dart';

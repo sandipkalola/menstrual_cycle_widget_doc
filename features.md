@@ -22,8 +22,10 @@
    * Meditation graph
 5. **Customization**&#x20;
    * Theme color options to match the app’s style.
-   * Multiple customization options based on your requirements.
-   * Options to configure cycle length, period duration, user id and other preferences.
+   * Flexible Customization: Tailor multiple aspects of the app based on your specific requirements.
+   * Multi-Language Support: Offer a localized experience with support for multiple languages.
+   * Custom Font Support: Integrate and use custom fonts to enhance the app's aesthetics
+   * Configurable Options: Adjust settings such as cycle length, period duration, user ID, and other preferences to fit user needs.
 6. **Other features**
    * Fetch graph data via paggination.
    * Option to download image or PDF of your current graph data.
